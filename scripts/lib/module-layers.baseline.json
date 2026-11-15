@@ -9,7 +9,6 @@
   },
   "cycles": [
     "application <-> artifacts",
-    "artifacts <-> native",
     "cli <-> cli.ts",
     "cli <-> cliBrowserScenarioCommands.ts",
     "cli <-> cliEvidenceCommands.ts",
@@ -22,7 +21,6 @@
     "apktool -> artifacts": 2,
     "artifacts -> dotnet": 3,
     "artifacts -> javascript": 1,
-    "artifacts -> native": 1,
     "browser -> artifacts": 6,
     "browser -> electron": 5,
     "browser -> javascript": 1,
